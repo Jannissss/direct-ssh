@@ -38,7 +38,7 @@ For further instructions visit [Rbrito`s Repo](https://github.com/rbrito/usbmoun
 
 ## Tested environments
 
-Direct-SSH has not yet been thoroughly tested under different circumstances. This are the specifications that Direct-SSH has been tested in yet:
+Direct-SSH has not yet been thoroughly tested under different circumstances. These are the specifications that Direct-SSH has been tested in yet:
 
 * Raspberry Pi 3B running Ubuntu server 22.04.4 LTS
 
