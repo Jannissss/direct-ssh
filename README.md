@@ -32,7 +32,7 @@ The script can come in handy if you are in a networkless environment but still n
 
 ## Tested environments
 
-Direct-SSH has not yet been thoroughly been tested under different circumstances. This are the specifications that Direct-SSH has been tested in yet:
+Direct-SSH has not yet been thoroughly tested under different circumstances. This are the specifications that Direct-SSH has been tested in yet:
 
 * Raspberry Pi 3B running Ubuntu server 22.04.4 LTS
 
