@@ -9,7 +9,7 @@ if not os.getuid() == 0:
     sys.exit(1)
 
 
-input('The GitHub Repo "rbrito/usbmount" is required to use this script. please install it first. For Instructions see "README.md"\n(Press ENTER to continue...)')
+input('The GitHub Repo "rbrito/usbmount" is required to use this script. Please install it first. For Instructions see "README.md"\n(Press ENTER to continue...)')
 
 
 path = pathlib.Path(__file__).parent.resolve()
