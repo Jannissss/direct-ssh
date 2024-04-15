@@ -39,15 +39,8 @@ Direct-SSH has not yet been thoroughly been tested under different circumstances
 ## Requirements
 
 1. `Python >= 3.10`
+    * See [Python.org](https://wiki.python.org/moin/BeginnersGuide)
 2. `debhelper`
+    * `apt-get install -y debhelper`
 3. `build-essential`
-
-### Installation
-
-#### Python
-
-See [Python.org](https://wiki.python.org/moin/BeginnersGuide)
-
-#### debhelper & build-essential
-
-`apt-get install -y debhelper build-essential`
+    * `apt-get install -y build-essential`
