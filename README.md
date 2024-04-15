@@ -9,6 +9,7 @@ The script can come in handy if you are in a networkless environment but still n
 1. `sudo python3 setup.py`
 
 ## Installation of USBMOUNT
+USBMOUNT is a simple service that automatically mounts USB drives when connected. This is needed for the script to finde the `DIRECT.SSH` file on connected USB drives.
 
 1. Clone repo rbrito/usbmount
 2. `sudo dpkg-buildpackage -us -uc -b`
