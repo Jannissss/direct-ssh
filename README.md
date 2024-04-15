@@ -12,6 +12,7 @@ USBMOUNT is a simple service that automatically mounts USB drives when connected
 2. `cd usbmount`
 3. `dpkg-buildpackage -us -uc -b`
 4. `sudo dpkg -i ../____.deb`
+5. `cd ../direct-ssh`
 
 For further instructions visit [Rbrito`s Repo](https://github.com/rbrito/usbmount)
 
