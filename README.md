@@ -7,9 +7,10 @@ The script can come in handy if you are in a networkless environment but still n
 ## Installation of USBMOUNT
 USBMOUNT is a simple service that automatically mounts USB drives when connected. This is needed for the script to finde the `DIRECT.SSH` file on connected USB drives.
 
-1. Clone repo rbrito/usbmount
-2. `sudo dpkg-buildpackage -us -uc -b`
-3. `sudo dpkg -i ../____.deb`
+1. `gh repo clone rbrito/usbmount`
+2. `cd usbmount`
+3. `dpkg-buildpackage -us -uc -b`
+4. `sudo dpkg -i ../____.deb`
 
 ## Installation of Systemd service
 
