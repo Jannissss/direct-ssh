@@ -5,12 +5,15 @@ Direct-SSH is a simple script that runs when a USB drive is connected with a sin
 The script can come in handy if you are in a networkless environment but still need to SSH into your Raspberry Pi.
 
 ## Installation of USBMOUNT
+
 USBMOUNT is a simple service that automatically mounts USB drives when connected. This is needed for the script to finde the `DIRECT.SSH` file on connected USB drives.
 
 1. `gh repo clone rbrito/usbmount`
 2. `cd usbmount`
 3. `dpkg-buildpackage -us -uc -b`
 4. `sudo dpkg -i ../____.deb`
+
+For further instructions visit [Rbrito`s Repo](https://github.com/rbrito/usbmount)
 
 ## Installation of Systemd service
 
@@ -41,8 +44,8 @@ Direct-SSH has not yet been thoroughly tested under different circumstances. Thi
 ## Requirements
 
 1. Python >= 3.10
-    * See [Python.org](https://wiki.python.org/moin/BeginnersGuide)
+   * See [Python.org](https://wiki.python.org/moin/BeginnersGuide)
 2. debhelper
-    * `apt-get install -y debhelper`
+   * `apt-get install -y debhelper`
 3. build-essential
-    * `apt-get install -y build-essential`
+   * `apt-get install -y build-essential`
