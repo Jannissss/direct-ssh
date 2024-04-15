@@ -1,4 +1,4 @@
-# direct-ssh
+# Direct-SSH
 
 Direct-SSH is a simple script that runs when a USB drive is connected with a single file called `DIRECT.SSH` The Script will then change the Netplan settings, so that the Raspberry Pi has the static address `192.168.0.50` on eth0. When the USB drive is disconnected, the netplan is automatically reverted to its original configuration.
 
