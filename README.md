@@ -6,7 +6,7 @@ The script can come in handy if you are in a networkless environment but still n
 
 ## Installation of USBMOUNT
 
-USBMOUNT is a simple service that automatically mounts USB drives when connected. This is needed for the script to finde the `DIRECT.SSH` file on connected USB drives.
+USBMOUNT is a simple service that automatically mounts USB drives when connected. This is needed for the script to find the `DIRECT.SSH` file on connected USB drives.
 
 1. `gh repo clone rbrito/usbmount`
 2. `cd usbmount`
